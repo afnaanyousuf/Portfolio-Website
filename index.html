@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume / My CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+    <nav class="navbar">
+        <a href="#" class="nav-branding">Mohammed Talha</a>
+        <ul class="nav-menu">
+            <li class="nav-items"><a href="#about">About</a></li>
+            <li class="nav-items"><a href="#projects">Projects</a></li>
+            <li class="nav-items"><a href="#skills">Skills</a></li>
+            <li class="nav-items"><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- Hamburger Navbar -->
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    </header>
+
+    <!-- profile section -->
+     <section id="profile">
+        <div class="profile-img">
+            <!-- Profile Photo -->
+            <img src="./images/img-1.jpg" alt="profile photo" width="250px" height="250px">
+        </div>
+        <div class="profile-text">
+            <!-- Profile Text -->
+            <p class="p1_text">Hello I'm</p>
+            <h2 class="title">Mohammed Talha</h2>
+            <p class="p2_text">HR & Marketing Associate</p>
+                <div class="btn-container">
+                    <button class="btn"><a href="./images/Talha_MBA-CV-2024-2.pdf" target="_blank">Download CV</a></button>
+                    <button class="btn"> <a href="#contact">Contact Info</a></button>
+                </div>
+        </div>
+     </section>
+
+     <!-- About me -->
+      <section id="about">
+        <p class="p1_text">Get To Know More</p>
+        <h2 class="title">About Me</h2>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./images/experience.png" alt="experience Item" class="icon">
+                    <h3>Experience</h3>
+                    <p>Fresher <br>Administrative Coordinator</p>
+                </div>
+                <div class="details-container">
+                    <img src="./images/education.png" alt="Education" class="icon">
+                    <h3>Education</h3>
+                    <p>
+                        <br>
+                        MBA(HR & Marketing) 
+                    </p>
+                </div>
+            </div> 
+            <div class="text-container">
+                <h2 onclick="toggleText()" class="p1_text text-bold">Objective</h2>
+                <p id="project2">
+                    As a dynamic MBA graduate with expertise in HR and Marketing, I'm a National Conference Winner and skilled public speaker. I excel in talent management and strategic marketing, driving growth and fostering a positive work culture. Currently working in Aspire Systems to leverage my skills and contribute to success of an Organizational Growth.           
+                </p>
+            </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+       <section id="skills"> 
+        <p class="p1_text"> Know Me</p>
+        <h2 class="title"> Skills </h2>
+        <div class="about-containers">
+            <div class="article-container">
+                <article>
+                    <h3>Event Management</h3>
+                    <p class="p3_text">Mastered</p>
+                </article>
+                <article>
+                    <h3>CRM</h3>
+                    <p class="p3_text">Skilled</p>
+                </article>
+                <article>
+                    <h3>Leadership</h3>
+                    <p class="p3_text">Mastered</p>
+                </article>
+                <article>
+                    <h3>Digital Marketing</h3>
+                    <p class="p3_text">Mastered</p>
+                </article>
+                <article>
+                    <h3>Talent Acquistion</h3>
+                    <p class="p3_text">Learner</p>
+                </article>
+                <article>
+                    <h3>Communication Skills</h3>
+                    <p class="p3_text">Mastered</p>
+                </article>
+                <article>
+                    <h3>Negotiation</h3>
+                    <p class="p3_text">Expert</p>
+                </article>
+            </div>
+        </div>
+       </section>
+       <!-- Project Section -->
+        <section id="projects">
+            <p class="p1_text">View My Recent</p>
+            <h2 class="title">Projects</h2>
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/project-1.png" alt="project 1" class="project-img" width="50%">
+                    </div>
+                    <h3 class="title">PROJECT 1 - STRESS MANAGEMENT</h3>
+                    <div>
+                        <details>
+                            <summary>View Description</summary>
+                            <p>
+                                INFLUENCE OF STRESS MANAGEMENT WITHIN ORGANIZATIONS AND ITS 
+                                EFFECTS ON EMPLOYEES’ PERFORMANCE AMONG WOMEN EMPLOYEES. <br>
+                                <br>
+                                <a class="publish" href="./images/Stress_Management.pdf" target="_blank">Download Publication</a>
+                            </p>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/project-2.png" alt="project 1" class="project-img" width="50%">
+                    </div>
+                    <h3 class="title">PROJECT 2 - AI ON HRM</h3>
+                    <div>
+                        <details>
+                            <summary>View Description</summary>
+                            <p> 
+                                The rapid advancement of Artificial Intelligence (AI) technologies has brought about significant transformations across various industries, and human resource management (HRM) is no exception. This descriptive research study aims to explore and analyze the impact of AI on HRM practices within organizations. Through a comprehensive examination of existing literature, case studies, and empirical evidence, this paper seeks to shed light on the ways in which AI is influencing HR functions, processes, and strategies. The findings of this study will contribute to a better understanding of the opportunities, challenges, and implications of integrating AI into HRM practices, ultimately guiding organizations in leveraging AI technologies effectively to enhance HR outcomes and organizational performance   <br>  
+                                <br>                     
+                                <a class="publish" href="./images/THE_IMPACT_OF_ARTIFICIAL_INTELLIGENCE_AI.pdf" target="_blank">Download Publication</a>
+                            </p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Form -->
+         <sectio id="contact">
+            <p class="p1_text">Get in Touch</p>
+            <h2 class="title">Contact Me</h2>
+            <section class="tried">
+                <section class="contact-info">
+                    <h4>Phone</h2>
+                    <p><a class="email" href="+916382222495" target="_blank">+91-6382222495</a></p>
+                    <h4>E-mail</h2>
+                    <p><a class="email" href="https://mail.google.com/mail/mdtalha9071@gmail.com/" target="_blank">mdtalha9071@gmail.com</a></p>
+                    <h4>LinkedIn Profile</h4>
+                    <p><a class="email" href="https://www.linkedin.com/in/mohammed-talha-k-259640211/" target="_blank">Mohammed Talha</a></p>  
+                </section> 
+            </section>       
+         </section>
+         <!-- Footer Section -->
+         <footer>
+            <p>2024 Copyright &copy; | All Rights Reserved</p>
+         </footer>
+     <script src="./script.js"></script>
+</body>
+</html>
